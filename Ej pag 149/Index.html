@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario NBA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .sub-header {
+            font-size: 14px;
+            color: #000000;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        .sub1-header {
+            font-size: 14px;
+            color: #000000;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .highlight-box {
+            background-color: #e0e0e0;
+            padding: 15px;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 17%;
+            font-weight: bold;
+            width: 60%;
+        }
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+        .media-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+        video {
+            width: 101%;
+            max-width: 2000px;
+        }
+        audio {
+            width: 100%;
+            max-width: 300px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            margin-top: 20px;
+        }
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .social-buttons {
+            position: fixed;
+            bottom: 5px;
+            right: 1px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .social-buttons img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 0,5px solid #ccc;
+            transition: transform 0.3s ease;
+        }
+
+        .social-buttons img:hover {
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Diario NBA</h1>
+        <p class="sub-header">Momentos destacados</p>
+        <div class="media-container">        
+            <video controls poster="poster.png">
+                <source src="Luka.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+            <p class="sub-header">Video super comprimido a 5MB</p>
+            <audio controls loop>
+                <source src="lofi.mp3" type="audio/mpeg">
+                Tu navegador no soporta la etiqueta de audio.
+            </audio>
+        </div>
+        <h2>Luka Dončić exjugador del Real Madrid y de los Dallas Maverik ficha por los Lakers</h2>
+        <p class="sub1-header">Contenido de marca</p>
+        <p>Debido a la falta de defensa del jugador, Dallas decidiría rescindir su contrato ya que no encaja ahora mismo en sus planes. El equipo americano le ofreció el jugador a los Lakers
+            a ver qué podían ofrecerles los angelinos, estos ofrecieron a Anthony Davis, uno de los mejores jugadores defensivos de la NBA. Después del inesperado traslado hubo muchas polémicas.
+        </p>
+
+        <div class="highlight-box">
+            <p>Luka Doncic ha debutado este lunes como nuevo jugador de Los Ángeles Lakers. Un día "especial", tal y como ha admitido el propio jugador en su primer partido con la camiseta amarilla, que estuvo precedido de varios simbolismos. Entre otros, la grada cubierta de camisetas con el número 77 y la imagen de LeBron James calentando con su indumentaria.</p>
+            <p>Tras el partido, en el que los Lakers ganaron 132-113 ante los Utah Jazz, el esloveno se mostró agradecido a la afición por la bienvenida. En su primer día, logró 14 puntos, 5 rebotes y 4 asistencias en 23 minutos, con un 5 de 14 en tiros de campo y 1 de 7 en triples. Era su primer partido desde finales de diciembre, cuando sufrió una lesión en los gemelos.</p>
+            <p>"Fue especial. La manera en que me recibieron todos: los compañeros, la directiva, todos los que están aquí. He oído mucho ruido cuando me presentaron... Así que lo agradezco mucho, fue un momento especial", dijo en declaraciones a ESPN nada más terminar el partido.</p>
+            <p>Doncic dijo que el mensaje que recibió de su técnico JJ Redick y de LeBron James fue sencillo: "Sé tu mismo". También dio las gracias a Dirk Nowitzki por viajar a Los Ángeles para respaldarle en su debut y le elogió como "un gran amigo" y "un gran mentor".</p>
+        </div>
+
+    </div>
+
+    <footer>
+    <div class="social-buttons">
+        <a href="https://twitter.com" target="_blank">
+            <img src="twitter.png" alt="Twitter">
+        </a>
+        <a href="https://facebook.com" target="_blank">
+            <img src="facebook.png" alt="Facebook">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="instagram.png" alt="Instagram">
+        </a>
+    </div>
+    </footer>
+</body>
+</html>
